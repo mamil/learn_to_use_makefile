@@ -1,0 +1,20 @@
+#介绍一些基础的编译指令
+#一个官方网站：https://gcc.gnu.org/onlinedocs/gcc/Invoking-GCC.html
+#要用什么再找好了，反正背完很快就忘记了，^_^
+
+
+#gcc和g++的区别
+#http://blog.chinaunix.net/uid-23023613-id-88201.html
+#简单说，gcc包含g++，我写的c++，都用的g++
+#可以用gcc，反正也是调用的g++
+
+
+
+#class1
+g++ -o #链接.o,生成最终文件
+
+g++ -c #只编译产生object文件，也就是.o文件
+
+#其实也可以一步到位,不过这样限制较大
+g++ main.cpp
+
